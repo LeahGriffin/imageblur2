@@ -46,3 +46,9 @@ image = Image.new([
 [0, 0, 0, 1],
 [0, 0, 0, 0]
 ])
+#original
+image.output_image
+puts
+image.blur!
+#blurred
+image.output_image
